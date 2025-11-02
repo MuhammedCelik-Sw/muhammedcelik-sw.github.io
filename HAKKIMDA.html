@@ -2,9 +2,11 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hakkımda - Muhammed Çelik</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <h1>Hakkımda</h1>
@@ -16,14 +18,45 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Ben Kimim?</h2>
+  <main class="content">
+    <article class="article-box">
+      <h2>Merhaba, ben Muhammed Çelik.</h2>
+      <h3 class="highlight">Gömülü Yazılıma Adanmış Bir Mühendislik Yolculuğu</h3>
       <p>
-        STM32 mikrodenetleyiciler üzerine gömülü yazılım geliştiriyorum.
-        ADC, DMA, Timer, PWM, SPI, I2C sürücüleri konusunda uzmanlaşmaktayım.
+        Elektrik-Elektronik Mühendisliği altyapım sayesinde gömülü sistemlerde donanımın 
+        kalbini anlayarak yazılım katmanını güçlendirmeyi amaçlıyorum. Mikrodenetleyicilerin 
+        iç mimarilerini derinlemesine çözümleyip, doğrudan donanım seviyesinde sürücüler geliştiriyorum.
       </p>
-    </section>
+
+      <p>
+        Özellikle <b>STM32</b>, <b>Texas Instruments C2000</b> ve <b>Infineon PSoC</b> ailesinde 
+        zamanlayıcı (Timer), ADC, DMA, SPI, I2C ve UART gibi çevresellerin sürücü katmanlarını 
+        sıfırdan geliştiriyor; motor kontrol, veri haberleşmesi ve güç elektroniği alanındaki 
+        projelerde bu altyapıyı kullanıyorum.
+      </p>
+
+      <p>
+        Driver geliştirme sürecinde <b>MISRA-C standartlarına</b> uygunluk, 
+        modüler kod yapısı ve donanım bağımsız soyutlama (HAL/LL katmanları) benim için öncelikli. 
+        Bu sayede hem okunabilir hem de taşınabilir sistem mimarileri tasarlıyorum.
+      </p>
+
+      <p>
+        Projelerimde yalnızca kodun doğruluğuna değil, <b>zamanlama kararlılığı</b> ve 
+        <b>gerçek zamanlı (RTOS)</b> davranışlara da odaklanıyorum. PWM–ADC senkronizasyonu, 
+        DMA tabanlı veri akışı, motor sürücü sinyalleri ve güç kontrolü bu çalışmaların merkezinde yer alıyor.
+      </p>
+
+      <p>
+        Hedefim; <b>daha akıllı, verimli ve güvenilir gömülü sistemler</b> üretmek, 
+        donanım–yazılım birlikteliğini ileriye taşımak ve ülkemizde bu alanda teknik içerik 
+        üretimine katkıda bulunmak.
+      </p>
+    </article>
   </main>
+
+  <footer>
+    <p>© 2025 Muhammed Çelik | Embedded Software Engineer</p>
+  </footer>
 </body>
 </html>
