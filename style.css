@@ -7,22 +7,84 @@ body {
 }
 
 header {
-  background-color: #161b22;
-  padding: 40px;
   text-align: center;
+  padding: 50px 20px;
+  background-color: #161b22;
   border-bottom: 1px solid #30363d;
 }
 
-h1 {
+header h1 {
   color: #58a6ff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #8b949e;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
 }
 
 section {
-  padding: 40px;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #58a6ff;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 8px;
+}
+
+.project {
+  background-color: #161b22;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #58a6ff;
+  color: #0d1117;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #79b8ff;
 }
 
 footer {
   text-align: center;
   padding: 20px;
   border-top: 1px solid #30363d;
+  color: #8b949e;
+  background-color: #161b22;
 }
