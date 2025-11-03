@@ -26,19 +26,6 @@ header span {
   font-weight: bold;
 }
 
-header p {
-  margin: 8px auto 0;       /* üst-alt boşluk ve ortalama */
-  font-size: 18px;
-  font-style: italic;
-  color: #ccc;
-  letter-spacing: 1px;
-  text-align: center;       /* ortalama */
-  width: fit-content;       /* yazının genişliğini içeriğe göre ayarlar */
-}
-
-
-
-
 /* ---- MENÜ ---- */
 nav {
   background: #e8e8e8;
@@ -91,5 +78,6 @@ footer {
   border-top: 1px solid #ddd;
   background: #fafafa;
 }
+
 
 
