@@ -3,62 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hakkımda - Muhammed Çelik</title>
+  <title>MÇ | Farkına Var</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #222, #444);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: 3px;
+    }
+    header h1 span {
+      color: #ff6a00;
+      font-weight: bold;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 18px;
+      font-style: italic;
+      letter-spacing: 1px;
+      color: #ccc;
+    }
+    nav {
+      background: #e8e8e8;
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 500;
+    }
+    nav a:hover, nav a.active {
+      color: #ff6a00;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #ff6a00;
+      margin-top: 0;
+      font-size: 28px;
+    }
+    h3 {
+      color: #555;
+      margin-top: -10px;
+      font-weight: 400;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+      border-top: 1px solid #ddd;
+      background: #fafafa;
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <h1>Hakkımda</h1>
-    <nav class="menu">
-      <a href="index.html">BAŞLANGIÇ</a>
-      <a href="driver.html">MİKRODENETLEYİCİ DRIVER GELİŞTİRME</a>
-      <a href="HAKKIMDA.html" class="active">HAKKIMDA</a>
-      <a href="contact.html">İLETİŞİM</a>
-    </nav>
+    <h1><span>MÇ</span> – Farkına Var</h1>
+    <p>Gömülü Yazılım Mühendisliğinde Derinleşen Bir Yolculuk</p>
   </header>
 
-  <main class="content">
-    <article class="article-box">
-      <h2>Merhaba, Ben Muhammed Çelik.</h2>
-      <h3 class="highlight">Gömülü Yazılıma Adanmış Bir Mühendislik Yolculuğu</h3>
-      <p>
-        Elektrik-Elektronik Mühendisliği altyapım sayesinde gömülü sistemlerde donanımın 
-        kalbini anlayarak yazılım katmanını güçlendirmeyi amaçlıyorum. Mikrodenetleyicilerin 
-        iç mimarilerini derinlemesine çözümleyip, doğrudan donanım seviyesinde sürücüler geliştiriyorum.
-      </p>
+  <nav>
+    <a href="index.html">BAŞLANGIÇ</a>
+    <a href="driver.html">DRIVER GELİŞTİRME</a>
+    <a href="HAKKIMDA.html" class="active">HAKKIMDA</a>
+    <a href="contact.html">İLETİŞİM</a>
+  </nav>
 
-      <p>
-        Özellikle STM32, Texas Instruments C2000 ve Infineon PSoC ailelerinde; zamanlayıcı (Timer),
-        ADC, DMA, SPI, I2C ve UART gibi çevresel birimlerin sürücü katmanlarını sıfırdan geliştiriyor,
-        bu altyapıyı motor kontrol, veri haberleşmesi ve güç elektroniği projelerinde etkin şekilde kullanıyorum.
-        Mevcut sürücü katmanlarını bu bakış açısıyla analiz ederek, yapıların nasıl kolayca anlaşılabilir
-        ve yeniden kullanılabilir hale getirilebileceğini gösteriyorum.
-        Ayrıca, gömülü yazılım mühendisliğinde kullanılan anahtar kelimelerin (keyword) ve sürdürülebilir 
-        kod prensiplerinin projelerde nasıl bütünlük sağladığını vurgulamaya özen gösteriyorum.
-      </p>
+  <main>
+    <h2>Merhaba, ben Muhammed Çelik.</h2>
+    <h3>Donanımı Anlayan, Yazılımı Şekillendiren Bir Mühendis.</h3>
 
-      <p>
-       Driver geliştirme sürecinde MISRA-C standartlarına uygun, modüler yapıda ve donanım
-       bağımsız soyutlama (HAL/LL katmanları) prensipleriyle yazılmış kodları analiz etmeyi, 
-       bu kodların arka planındaki mekanizmaları anlamayı ve açıklamayı seven meraklı bir mühendisim
-      </p>
+    <p>
+      Elektrik-Elektronik Mühendisliği altyapım sayesinde, sistemlerin kalbinde dönen sinyalleri 
+      ve algoritmaları bir bütün olarak kavrayabiliyorum. Bu yaklaşım, yazılımı yalnızca 
+      “kod” olarak değil; donanımın diliyle konuşan bir zekâ olarak görmemi sağladı.
+    </p>
 
-      <p>
-       Bu süreçte edindiğim bilgi ve deneyimleri değerli meslektaşlarımla paylaşarak bilgiyi çoğaltmayı,
-       sizden gelecek geri bildirimlerle kendimi geliştirmeyi ve bu topluluk içinde güçlü, paylaşımcı bir
-       aile ortamı oluşturmayı hedefliyorum.
-      </p>
-    </article>
+    <p>
+      <strong>STM32</strong>, <strong>Texas Instruments C2000</strong> ve 
+      <strong>Infineon PSoC</strong> platformlarında; Timer, ADC, DMA, SPI, I2C ve UART gibi 
+      çevresel birimlerin sürücülerini sıfırdan geliştiriyor, bu altyapıyı motor kontrol, veri 
+      haberleşmesi ve güç elektroniği projelerinde etkin biçimde kullanıyorum.
+    </p>
+
+    <p>
+      Kodlarımı **MISRA-C standartlarına** uygun, modüler ve yeniden kullanılabilir biçimde 
+      tasarlamaya özen gösteriyorum. HAL/LL katmanlarıyla oluşturduğum soyutlama yapıları, 
+      projeler arasında esneklik ve sürdürülebilirlik sağlıyor.
+    </p>
+
+    <p>
+      Bu yolculukta öğrendiklerimi paylaşmak, meslektaşlarımla birlikte üretmek ve 
+      “farkına varmak” benim için bir hedef değil — bir yaşam biçimi.
+    </p>
   </main>
 
   <footer>
-    <p>© 2025 Muhammed Çelik | Embedded Software Engineer</p>
+    © 2025 Muhammed Çelik | “Farkına Var” – Embedded Software Engineer
   </footer>
 </body>
 </html>
-
-
-
-
-
